@@ -19,3 +19,7 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 3. Tap the floating button
 
 4. Observe the blue buttons don't contain an icon
+
+
+https://github.com/user-attachments/assets/cb01d2cd-f270-4c5e-b9ce-e506f84fa791
+
