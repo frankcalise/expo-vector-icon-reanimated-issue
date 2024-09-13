@@ -17,20 +17,7 @@ const DURATION = 150;
 const TRANSLATE_Y = -80;
 const AnimatedPressable = Animated.createAnimatedComponent(Pressable);
 
-export type FabButtonProps = {
-  onPress: () => void;
-  isOpen: boolean;
-  children: React.ReactNode;
-  panelStyle?: ViewStyle;
-  duration?: number;
-  openedSize?: number;
-  closedSize?: number;
-};
-
-export function FloatingButton({
-  openedSize,
-  closedSize = 56,
-}: FabButtonProps) {
+export function FloatingButton() {
   const { width } = useWindowDimensions();
   const { bottom } = useSafeAreaInsets();
 
